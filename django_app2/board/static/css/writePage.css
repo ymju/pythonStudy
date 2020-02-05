@@ -1,0 +1,45 @@
+h1, h3 {
+    width: 550px;
+    margin: 15px auto;
+}
+
+input {
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    display: block;
+    width: 550px;
+    height: 150px;
+    margin: 0 auto;
+    resize: none;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    margin: 0 3px;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
