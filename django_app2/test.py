@@ -1,3 +1,3 @@
-def application(start_response):
+def application(env, start_response):
     start_response('200 OK', [('Content-Type', 'text/html')])
-    return ['Hello']
+    return [b"Hello World"]
