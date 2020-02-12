@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a400a26-321a-4a78-8674-ada159354c8c" name="Default Changelist" comment="" />
+    <list default="true" id="0a400a26-321a-4a78-8674-ada159354c8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/templates/boardDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/board/templates/boardDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/templates/boardList.html" beforeDir="false" afterPath="$PROJECT_DIR$/board/templates/boardList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1X6TUUda74mcqvqeSlrirBGCMmX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,17 +34,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/board/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/board/static/css" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/board/templates" />
-      <recent name="$PROJECT_DIR$/board/static/css" />
-      <recent name="$PROJECT_DIR$/board" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/board" />
       <recent name="$PROJECT_DIR$/board/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/board/static/css" />
+      <recent name="$PROJECT_DIR$/board/templates" />
+      <recent name="$PROJECT_DIR$/board" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -63,9 +76,24 @@
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state x="399" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.841@0.23.1440.841" timestamp="1580373077869" />
-    <state x="386" y="79" width="816" height="729" key="find.popup" timestamp="1580883849362">
+    <state x="502" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581499928372">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
-    <state x="386" y="79" width="816" height="729" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1580883849362" />
+    <state x="502" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.841@0.23.1440.841" timestamp="1581499928372" />
+    <state x="386" y="79" width="816" height="729" key="find.popup" timestamp="1581500085130">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state x="386" y="79" width="816" height="729" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1581500085130" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Python 게시판 연습하기</title>
-    <link rel="stylesheet" href="{% static 'css/writePage.css' %}">
+    <link rel="stylesheet" href="{% static 'css/detailBoard.css' %}">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
 
     <section class="detail">
-        detail
+        <h3>제목</h3>
+        <div>{{ board.subject }}</div>
+        <h3>내용</h3>
+        <div>{{ board.content }}</div>
     </section>
-        dddb
+
+    <a href="/list" class="goBtn">게시판으로 이동</a>
+
     <script>
+
     </script>
 </body>
 </html>

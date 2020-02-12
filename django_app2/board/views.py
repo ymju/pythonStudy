@@ -17,4 +17,7 @@ def write(request):
     return redirect('/list')
 
 def detail(request, pk):
+    board = Board.objects.get(id=pk)
+    board.viewCount += 1
+    board.save()
     return render(request, 'boardDetail.html', {'board':Board.objects.get(id=pk)})
